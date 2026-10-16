@@ -63,3 +63,64 @@
 VCoder supports custom `.json` theme extensions. You can create your own theme file and install it directly via **Extensions Manager → Install Extension → Browse .JSON File**.
 
 ### Example Theme JSON Format:
+
+{
+  "id": "theme_custom_neon",
+  "name": "Custom Neon Glow",
+  "version": "1.0.0",
+  "author": "Vega Coder Developer",
+  "description": "Custom neon theme installed from local storage.",
+  "type": "THEME",
+  "isInstalled": true,
+  "isEnabled": true,
+  "isBuiltIn": false,
+  "config": {
+    "colors": {
+      "headerBg": "#12002B",
+      "headerText": "#FF007F",
+      "headerSubtext": "#00F5D4",
+      "bodyBg": "#0D0221",
+      "leftNavBg": "#12002B",
+      "leftNavText": "#E0AAFF",
+      "rightNavBg": "#12002B",
+      "rightNavText": "#E0AAFF",
+      "panelHeaderBg": "#1E0038",
+      "panelBodyBg": "#0D0221",
+      "panelText": "#E0AAFF",
+      "accentColor": "#FF007F",
+      "inputBg": "#0D0221",
+      "inputText": "#00F5D4",
+      "inputHint": "#7B2CBF",
+      "iconTint": "#00F5D4",
+      "statusBg": "#12002B",
+      "statusText": "#00F5D4",
+      "buttonBg": "#1E0038",
+      "buttonText": "#FF007F",
+      "dialogBg": "#12002B",
+      "dialogText": "#E0AAFF",
+      "tabActiveBg": "#1E0038",
+      "tabActiveText": "#00F5D4",
+      "tabInactiveBg": "#0D0221",
+      "tabInactiveText": "#7B2CBF",
+      "backgroundColor": "#0D0221",
+      "lineNumberBackgroundColor": "#12002B",
+      "lineNumberColor": "#7B2CBF",
+      "textColor": "#E0AAFF",
+      "keywordColor": "#FF007F",
+      "stringColor": "#00F5D4",
+      "commentColor": "#7B2CBF",
+      "numberColor": "#FFE600",
+      "functionColor": "#00F5D4"
+    }
+  }
+}
+
+
+
+## 📄 License
+
+Copyright © 2025 **VegaTech Software Studios**. All Rights Reserved.
+
+This software is provided for personal and professional use as a compiled binary.
+Unauthorized copying, reverse engineering, redistribution, or modification of this 
+application and its assets is strictly prohibited.
